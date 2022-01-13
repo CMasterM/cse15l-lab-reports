@@ -11,5 +11,5 @@
 - type yes the first time you log in and then enter your password when promted
 - no text shows up when typing so don't be alarmed, (and make sure not to mess up when you type in your password)
 - Once you log on you should see this 
-![image](justLoggedin.png)
+- ![image](justLoggedin.png)
 - The server I logged into was linux based so we can run some linux commands as shown ![image](someCOmmands.png)
