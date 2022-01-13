@@ -13,3 +13,7 @@
 - Once you log on you should see this 
 - ![image](justLoggedin.png)
 - The server I logged into was linux based so we can run some linux commands as shown ![image](someCOmmands.png)
+- In order to use this computer we need to upload files onto it.
+- I used the command scp in order to upload a file
+- my command looked like *scp WhereAmI.java cs15lwi22ase@ieng6.ucsd.edu:~/
+- Here is a screenshot of my uploading a file, logging on and checking for it ![image](uploadedFilek.png)
