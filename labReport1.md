@@ -23,3 +23,7 @@
 - I then uploaded the public key from my pc to this directory with scp.
 - I was then able to log on without typing my long password as shown here
 - ![image](sshkey.png)
+- I finished out with some optimization of the process of running a java file on the server
+- I got the command for logging in, compiling, and running onto one line as shown here
+- ![image](omtomiz.png)
+- Every time after that, when I want to run the code, I can use the up arrow to get that line back and run it very quickly
