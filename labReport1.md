@@ -17,3 +17,9 @@
 - I used the command scp in order to upload a file
 - my command looked like *scp WhereAmI.java cs15lwi22ase@ieng6.ucsd.edu:~/
 - Here is a screenshot of my uploading a file, logging on and checking for it ![image](uploadedFilek.png)
+- From here on out, everything else will be devoted to speeding up the process.
+- The next thing I did was to set up an ssh key with the command *ssh-keygen*
+- Then i logged back onto the server and make a directory called .ssh with *mkdir .ssh*
+- I then uploaded the public key from my pc to this directory with scp.
+- I was then able to log on without typing my long password as shown here
+- ![image](sshkey.png)
