@@ -27,3 +27,4 @@
 - I got the command for logging in, compiling, and running onto one line as shown here
 - ![image](optomiz.png)
 - Every time after that, when I want to run the code, I can use the up arrow to get that line back and run it very quickly
+- After editing my code, I could press up then enter twice for 4 total keystrokes to upload and run my code on the server
