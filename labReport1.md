@@ -1,6 +1,6 @@
 **Week 1 Lab Report**
 =====================
-- ##Installing VScode
+- ## Installing VScode
 - The fist step to getting started is downloading Visual Studio Code
 - It should be donwloadable [here](https://code.visualstudio.com/download)
 - When you download and install, use the wizard and then open the program
@@ -14,21 +14,21 @@
 - no text shows up when typing so don't be alarmed, (and make sure not to mess up when you type in your password)
 - Once you log on you should see this 
 - ![image](justLoggedin.png)
-- ##Trying Some Commands
+- ## Trying Some Commands
 - The server I logged into was linux based so we can run some linux commands as shown ![image](someCOmmands.png)
-- ##Moving Files with ```scp```
+- ## Moving Files with ```scp```
 - In order to use this computer we need to upload files onto it.
 - I used the command scp in order to upload a file
 - my command looked like ```scp WhereAmI.java cs15lwi22ase@ieng6.ucsd.edu:~/```
 - Here is a screenshot of my uploading a file, logging on and checking for it ![image](uploadedFilek.png)
 - From here on out, everything else will be devoted to speeding up the process.
-- ##Setting up an SSH Key
+- ## Setting up an SSH Key
 - The next thing I did was to set up an ssh key with the command ```ssh-keygen```
 - Then i logged back onto the server and make a directory called ```.ssh with *mkdir .ssh*```
 - I then uploaded the public key from my pc to this directory with scp.
 - I was then able to log on without typing my long password as shown here
 - ![image](sshkey.png)
-- ##Optimizing Remote Running
+- ## Optimizing Remote Running
 - I finished out with some optimization of the process of running a java file on the server
 - I got the command for logging in, compiling, and running onto one line as shown here
 - ![image](optomiz.png)
