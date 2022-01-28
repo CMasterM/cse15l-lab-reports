@@ -4,7 +4,7 @@
 - ![image](lab2pics/openParenChanges.png)
 - [extraParenTest](https://cmasterm.github.io/cse15l-lab-reports/lab2tests/test-parens-inside-link.md)
 - symptom
-- ![image]((lab2pics/parenInsideSymptom.png)
+- ![image](lab2pics/parenInsideSymptom.png)
 - The bug is that after detecting an open parenthesis, the first closed parenthesis is used and everything in between is a link
 - the test has text inside parentheses within a link
 - the symptom is that the link is detected as everything from the start of the link until the closed paranthesis within the link
