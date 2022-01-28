@@ -1,7 +1,9 @@
 **Week 2 Lab Report**
 =====================
-- ## Fixing Open Paren Inside Link Text
+- ## Fixing Extra parentheses inside link text
 - ![image](lab2pics/openParenChanges.png)
+- ## Fixing unclosed open paranthesis
+- ![image](lab2pics/unclosedChanges.png)
 - [openParenTest](https://cmasterm.github.io/cse15l-lab-reports/lab2tests/test-unclosed-open-paren-then-link.md)
 - symptom
 - ![image](lab2pics/unclodedOpenSymptom.png)
