@@ -24,4 +24,3 @@
 - The bug is that the code responsible for recognizing links, also recognized images as links due to similar formatting
 - Our test has some dummy images and links that are named as such so we see what gets pulled through and printed
 - the symptom is that all of the links as well as the image links get added when only the normal links should be added
-- ##
