@@ -9,3 +9,4 @@
 - this picture is here to show an empty folder that I want to ```scp``` a file into
 - ![image](lab3pics/emptyFolder.png)
 - finally, here I execute the ```scp``` command, then log onto ieng6 and check my folder that I moved the file into
+- ![image](lab3pics/scp.png)
