@@ -22,5 +22,15 @@
 - output from group we reviewed
 - ![image](lab4pics\them2.png)
 - unfortunately, fixing this bug would require a more involved change. Our MarkdownParse has no system for dealing with nested parentheses
-- fixing this would require a good bit of code as we saw Joe do in lectures and videos
+- fixing this would require its own method we saw Joe do in lectures and videos
+- as well as debugging it in lab 8
 - ## Snippet 3
+- the test for snippet 3
+- ![image](lab4pics\test3.png)
+- output from our group
+- ![image](lab4pics\us3.png)
+- output from their group
+- ![image](lab4pics\them3.png)
+- There is certainly no small fix that will help us in this case. It would require an overhaul of our getLinks() method
+- our MDParse works by splitting the file line by line, thus at newline characters. This means that any link with newline 
+- characters won't get recognized because we are checking for links line by line
