@@ -7,30 +7,30 @@
 - Using VSCode's preview, I found the correct parsing and made this test
 - ![image](lab4pics/test1.png)
 - output from our group's code
-- ![image](lab4pics\us1.png)
+- ![image](lab4pics/us1.png)
 - their group's output
-- ![image](lab4pics\them1.png)
+- ![image](lab4pics/them1.png)
 - For this snippet, the only issue we had was the extra inclusion of url.com
 - this is because our program doesn't recognize `code` tick formatting
 - the fix would be pretty easy. We could just detect the ` like we have it doing for the ! in images
 - if we find the an open tick, look for a second and then skip to the next open bracket after the second tick
 - ## Snippet 2
 - here is the test
-- ![image](lab4pics\test2.png)
+- ![image](lab4pics/test2.png)
 - output from our group
-- ![image](lab4pics\us2.png)
+- ![image](lab4pics/us2.png)
 - output from group we reviewed
-- ![image](lab4pics\them2.png)
+- ![image](lab4pics/them2.png)
 - unfortunately, fixing this bug would require a more involved change. Our MarkdownParse has no system for dealing with nested parentheses
 - fixing this would require its own method we saw Joe do in lectures and videos
 - as well as debugging it in lab 8
 - ## Snippet 3
 - the test for snippet 3
-- ![image](lab4pics\test3.png)
+- ![image](lab4pics/test3.png)
 - output from our group
-- ![image](lab4pics\us3.png)
+- ![image](lab4pics/us3.png)
 - output from their group
-- ![image](lab4pics\them3.png)
+- ![image](lab4pics/them3.png)
 - There is certainly no small fix that will help us in this case. It would require an overhaul of our getLinks() method
 - our MDParse works by splitting the file line by line, thus at newline characters. This means that any link with newline 
 - characters won't get recognized because we are checking for links line by line
