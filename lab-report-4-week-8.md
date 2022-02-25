@@ -5,7 +5,7 @@
 - [Repo I reviewed](https://github.com/m1ma0314/markdown-parse)
 - ## Snippet 1
 - Using VSCode's preview, I found the correct parsing and made this test
-- ![image](lab4pics\test1.png)
+- ![image](lab4pics/test1.png)
 - output from our group's code
 - ![image](lab4pics\us1.png)
 - their group's output
