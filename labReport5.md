@@ -3,7 +3,7 @@
 - ## Different Test Methodology
 - In order to find the differences between tests, we ran a bash script that used the directory compatability of Markdown-Parse and sent the result of every test to a file. We did this for our implementation and the provided implementation then we used the ```diff``` comand to compare them.
 - ## Test 14
-- out output
+- our output
 - ![image](lab5pics/ourOut1.png)
 - provided code output
 - ![image](lab5pics/theirOut1.png)
